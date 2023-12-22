@@ -1,0 +1,141 @@
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to bottom, rgb(85, 242, 151), rgb(19, 201, 125));
+    display: flex;
+    justify-content: center;
+}
+
+.logoDaksa {
+    width: 90px;
+    height: 90px;
+}
+
+/* Navbar */
+
+.Nav1 {
+    display: flex;
+    background-color: rgb(112, 234, 234);
+}
+
+.Nav1 ul {
+    list-style-type: none;
+    display: flex;
+    padding: 8px;
+    width: 100%;
+}
+
+.Nav1 ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Nav1 li a {
+    text-decoration: none;
+    color: rgb(39, 65, 233);
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.Nav1 :hover {
+    transition-duration: 0.3s;
+    color: rgb(255, 255, 255);
+}
+
+/* Main */
+
+main {
+    display: flex;
+}
+
+article {
+    width: 100%;
+    height: 440px;
+    background-color: #3c89d5;
+    display: flex;
+    justify-content: center;
+    background-image: url(img/wallpaperMain.jpg);
+}
+
+.logoInstagram {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+p {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.logoEmail {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Form */
+
+form {
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* img */
+
+
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 10px;
+    color: white;
+}
+
+footer {
+    background-color: rgb(112, 234, 234);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
